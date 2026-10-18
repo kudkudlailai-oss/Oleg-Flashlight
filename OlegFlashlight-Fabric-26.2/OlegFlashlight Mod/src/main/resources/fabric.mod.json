@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "backrooms_flashlight",
+	"version": "${version}",
+	"name": "Oleg Flashlight",
+	"icon": "assets/backrooms_flashlight/icon.png",
+	"description": "A craftable flashlight with infinite battery. You spawn with one. It lights the world with a real spotlight.",
+	"authors": ["Port of the flashlight from Backrooms: Found Footage (SpacePotatoee)"],
+	"license": "GPL-3.0-or-later",
+	"environment": "*",
+	"mixins": [ { "config": "backrooms_flashlight.mixins.json", "environment": "client" } ],
+	"entrypoints": {
+		"main": ["com.backroomsflashlight.FlashlightMod"],
+		"client": ["com.backroomsflashlight.client.FlashlightClient"],
+		"modmenu": ["com.backroomsflashlight.client.ModMenuIntegration"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

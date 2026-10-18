@@ -1,0 +1,8 @@
+{
+  "key.backrooms_flashlight.toggle": "Toggle Flashlight",
+  "key.backrooms_flashlight.toggle_free": "Toggle Flashlight (found_footage style)",
+  "key.category.backrooms_flashlight.main": "Oleg Flashlight",
+  "item.backrooms_flashlight.flashlight": "Flashlight",
+  "tooltip.backrooms_flashlight.infinite": "Infinite battery",
+  "tooltip.backrooms_flashlight.how_to": "Right-click or press the key to switch on"
+}

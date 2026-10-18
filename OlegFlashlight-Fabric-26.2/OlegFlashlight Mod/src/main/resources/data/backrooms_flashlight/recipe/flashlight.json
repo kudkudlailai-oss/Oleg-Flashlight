@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " CG",
+    " L ",
+    "B  "
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:glass",
+    "L": "minecraft:glowstone",
+    "B": "#minecraft:buttons"
+  },
+  "result": {
+    "id": "backrooms_flashlight:flashlight",
+    "count": 1
+  }
+}

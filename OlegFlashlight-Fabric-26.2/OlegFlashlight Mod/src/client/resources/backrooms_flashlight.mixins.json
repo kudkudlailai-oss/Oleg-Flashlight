@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.backroomsflashlight.client.albedo.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CommandEncoderMixin",
+		"PostPassTargetInputMixin",
+		"RenderPassMixin"
+	],
+	"injectors": { "defaultRequire": 1 }
+}

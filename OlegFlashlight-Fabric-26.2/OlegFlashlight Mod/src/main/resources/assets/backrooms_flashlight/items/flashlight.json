@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "backrooms_flashlight:lit",
+    "on_true":  { "type": "minecraft:model", "model": "backrooms_flashlight:item/flashlight_on" },
+    "on_false": { "type": "minecraft:model", "model": "backrooms_flashlight:item/flashlight_off" }
+  }
+}
